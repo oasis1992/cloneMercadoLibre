@@ -1,16 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-Nodejs version 18.0 (recommended)
+## Empezar
 
-## Getting Started
-
-First, run the development server:
+### Nota: Versión recomendada de Node 18.0
+$~$
 
 ```bash
-npm run dev
-# or
-yarn dev
+ 1. yarn install
+ 2. yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Se levanta un endpoint con su respectivo puerto [http://localhost:3000](http://localhost:3000)
 
+$~$
 
+## Endpoints
+$~$
+### Búsqueda de productos por medio de la caja de búsqueda
+```bash
+/items?search=query
+```
+$~$
+### Detalle de producto
+
+```bash
+/items/:id
+```
+$~$
+
+## Metodología usada para componentes React
+### Atomic design
+
+$~$
+
+## Tecnologías usadas
+$~$
+||
+| ----------------------- |
+| Nextjs                  |
+|   Eslint                |
+|   styled-components     |
+|   Jest                  |
+|   react testing library |
+|   i18n                  |
+|   axios                 |
+
+## Patrones usados - React
+$~$
+||
+| ----------------------- |
+| HOC                  |
+|   Custom hooks          |
+|   Render props     |
+|   State initializer                  |
+|   Control props |
